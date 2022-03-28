@@ -1,2 +1,5 @@
 # demo-shiny-penguins
-Palmers penguins shiny dashboard
+
+Palmer's penguins shiny dashboard demo.
+
+![screenshot](./app-screenshot.png)
