@@ -1572,20 +1572,8 @@
     }
   },
   "files": {
-    "app-screenshot.png": {
-      "checksum": "522ac0a2e0204580549807ec41e6132b"
-    },
     "app.R": {
       "checksum": "49f8b1254b763dc5665f1844076569c6"
-    },
-    "LICENSE": {
-      "checksum": "77f9d1d8952a6481ac0196ba89e11cfe"
-    },
-    "README.html": {
-      "checksum": "b01e56b017f36cd5c40ddd24d460dc3c"
-    },
-    "README.md": {
-      "checksum": "1771374098518e935e66111adbb3354b"
     }
   },
   "users": null
