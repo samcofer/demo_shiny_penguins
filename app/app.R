@@ -43,7 +43,6 @@ server <- function(input, output) {
     selected_island <- reactive({input$islandInput})
     
     filtered_penguins <- reactive({
-        print(selected_island())
         if (selected_island() == "All") {
             penguins
         } else {
@@ -67,7 +66,7 @@ server <- function(input, output) {
     fig_flipper_dist <- reactive({
         filtered_penguins() |> 
             ggplot(aes(x = flipper_length_mm, fill = species)) +
-            geom_histogram(alpha = 0.7, position = "identity") +
+            geom_histogram(alpha = 0.7, position = "identity", bins = 30) +
             labs(
                 title = "Distribution of Flipper Length",
                 x = "Flipper length (mm)",

@@ -20,10 +20,28 @@ Changes to the main branch will automatically be deployed. Before commiting new 
 rsconnect::writeManifest("app")
 ```
 
-### Deploy in the R console
+### Deploy in R Console
 
 ```r
-rsconnect::deployApp()
+rsconnect::deployApp(
+  appDir = "app",
+  appFiles = c("app.R"),
+  appName = "demo-palmers-penguins-shiny-r-console-deploy",
+  appTitle = "Demo - Palmers Penguins [Shiny / R Console Deploy]",
+  account = "sam.edwardes",
+  server = "colorado.rstudio.com"
+)
+```
+
+### Deploy with GitHub Actions
+
+```r
+rsconnect::deployApp(
+  addDir = "app",
+  appFiles = c("app.R"),
+  appName = "demo-palmers-penguins-shiny-github-actions-deploy"
+  appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]"
+)
 ```
 
 ### Deploy with GitHub Actions
