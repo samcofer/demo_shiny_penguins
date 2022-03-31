@@ -19,9 +19,10 @@ jobs:
 
       - uses: r-lib/actions/setup-r@master
 
-      - name: Install renv
+      - name: Install publishing dependencies
         run: |
           install.packages("renv")
+          install.packages("rsconnect")
         shell: Rscript {0}
         
       - name: Restore environment
