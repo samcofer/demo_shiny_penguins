@@ -6,6 +6,7 @@ library(dplyr)
 # Load the data
 penguins <- palmerpenguins::penguins
 
+# Dashboard body
 body <- shinydashboard::dashboardBody(
     fluidRow(
         column(
@@ -27,8 +28,6 @@ body <- shinydashboard::dashboardBody(
     )
 )
 
-
-
 ui <- shinydashboard::dashboardPage(
     dashboardHeader(
         title = "Palmer's Penguins"
@@ -38,7 +37,7 @@ ui <- shinydashboard::dashboardPage(
     skin = "yellow"
 )
 
-
+# Server functions
 server <- function(input, output) {
     
     selected_island <- reactive({input$islandInput})
@@ -53,7 +52,6 @@ server <- function(input, output) {
         }
     })
     
-    # Plots
     fig_bill_vs_flipper <- reactive({
         filtered_penguins() |> 
             ggplot(aes(x = flipper_length_mm, y = bill_length_mm, color = species, shape = species)) +
@@ -77,8 +75,6 @@ server <- function(input, output) {
             )
     })
         
-        
-    # Outputs
     output$figBillVsFlipper <- renderPlot({fig_bill_vs_flipper()})
     output$figFlipperDist <- renderPlot({fig_flipper_dist()}) 
 }

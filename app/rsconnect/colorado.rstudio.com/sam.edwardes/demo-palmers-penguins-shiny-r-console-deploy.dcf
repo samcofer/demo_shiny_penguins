@@ -1,0 +1,11 @@
+name: demo-palmers-penguins-shiny-r-console-deploy
+title: Demo - Palmers Penguins [Shiny / R Console Deploy]
+username: sam.edwardes
+account: sam.edwardes
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 11087
+bundleId: 54765
+url: https://colorado.rstudio.com/rsc/content/5229b9b3-a2d3-43be-a371-e2ead566e560/
+when: 1648754128.07345
+lastSyncTime: 1648754128.07347
