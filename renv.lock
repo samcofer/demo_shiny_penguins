@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "RSPM",
-        "URL": "https://colorado.rstudio.com/rspm/all/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ"
+        "URL": "https://packagemanager.rstudio.com/all/latest"
       }
     ]
   },

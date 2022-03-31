@@ -23,12 +23,6 @@ jobs:
         run: |
           install.packages("renv")
         shell: Rscript {0}
-
-      - name: Update renv
-        run: |
-          renv::consent(TRUE)
-          renv::restore(packages = "renv")
-        shell: Rscript {0}
         
       - name: Restore environment
         run: |
