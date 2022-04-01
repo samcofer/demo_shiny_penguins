@@ -8,4 +8,5 @@ rsconnect::deployApp(
 )
 
 
-rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy-3", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]")
+rsconnect::connectApiUser(account = "sam.edwardes", server = "https://colorado.rstudio.com/rsc", apiKey={{ env.RSCONNECT_APIKEY }})
+rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", forceUpdate = TRUE)
