@@ -12,10 +12,18 @@ jobs:
       APP_NAME: "demo-palmers-penguins-shiny-github-actions-deploy-2"
       APP_DIR: "app"
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-      RSCONNECT_URL: ${{ secrets.RSCONNECT_URL }}
       RSCONNECT_APIKEY: ${{ secrets.RSCONNECT_APIKEY }}
+      RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Cache packages
+        uses: actions/cache@v1
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
 
       - uses: r-lib/actions/setup-r@master
 
