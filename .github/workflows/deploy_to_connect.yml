@@ -32,8 +32,6 @@ jobs:
           rsconnect::writeManifest(appDir = "${{ env.APP_DIR }}")
         shell: Rscript {0}
         
-
-        
       - name: addConnectServer
         run: |
           rsconnect::addServer(
@@ -54,12 +52,11 @@ jobs:
       - name: Publish to connect
         run: |
           rsconnect::deployApp(
-          addDir = "app", 
-          appFiles = c("app.R"), 
-          appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", 
-          forceUpdate = TRUE, 
-          account = "sam.edwardes",
-          server = "colorado"
-        )
+            addDir = "app", 
+            appFiles = c("app.R"), 
+            appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", 
+            forceUpdate = TRUE, 
+            account = "sam.edwardes",
+            server = "colorado"
+          )
         shell: Rscript {0}
-      # 
