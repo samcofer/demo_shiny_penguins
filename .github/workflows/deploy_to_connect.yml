@@ -32,27 +32,27 @@ jobs:
           rsconnect::writeManifest(appDir = "${{ env.APP_DIR }}")
         shell: Rscript {0}
         
-      - name: Deploy to RStudio Connect
-        uses: rstudio/actions/connect-publish@main
-        with:
-          url: https://${{ env.RSCONNECT_APIKEY }}@colorado.rstudio.com/rsc/
-          access-type: logged_in
-          show-logs: true
-          force: true
-          dir: ${{ env.APP_DIR }}
-          require-vanity-path: true
+      # - name: Deploy to RStudio Connect
+      #   uses: rstudio/actions/connect-publish@main
+      #   with:
+      #     url: https://${{ env.RSCONNECT_APIKEY }}@colorado.rstudio.com/rsc/
+      #     access-type: logged_in
+      #     show-logs: true
+      #     force: true
+      #     dir: ${{ env.APP_DIR }}
+      #     require-vanity-path: true
         
         
       # rsconnect::connectApiUser(server = "gha-colorado.rstudio.com", apiKey = Sys.getenv("CONNECT_API_KEY"))
       # rsconnect::servers() |> dplyr::select(name, url) |> print()
-      # - name: Connect to connect
-      #   run: |
-      #     rsconnect::addConnectServer(url = "https://colorado.rstudio.com/rsc/")
-      #     rsconnect::connectApiUser(apiKey="{{ env.RSCONNECT_APIKEY }}", account = "sam.edwardes")
-      #   shell: Rscript {0}
+      - name: Connect to connect
+        run: |
+          rsconnect::addConnectServer(url = "https://colorado.rstudio.com/rsc/", name = "colorado.rstudio.com")
+          rsconnect::connectApiUser(apiKey="{{ env.RSCONNECT_APIKEY }}", account = "sam.edwardes", server = "colorado.rstudio.com")
+        shell: Rscript {0}
         
       # - name: Publish to connect
-      #   run: |
-      #     rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", forceUpdate = TRUE, account = "sam.edwardes")
-      #   shell: Rscript {0}
+        run: |
+          rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", forceUpdate = TRUE, account = "sam.edwardes")
+        shell: Rscript {0}
    
