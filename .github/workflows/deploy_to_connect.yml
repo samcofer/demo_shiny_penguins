@@ -35,6 +35,11 @@ jobs:
           rsconnect::writeManifest(appDir = "${{ env.APP_DIR }}")
         shell: Rscript {0}
         
+      - name: Register server
+        run: |
+          rsconnect::addServer(url = "https://colorado.rstudio.com/rsc/__api__", name = "colorado.rstudio.com")
+        shell: Rscript {0}
+        
       - name: Register user
         run: |
           rsconnect::connectApiUser(account = "sam.edwardes", server = "colorado.rstudio.com", apiKey={{ env.RSCONNECT_APIKEY }})
