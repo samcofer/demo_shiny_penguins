@@ -34,12 +34,11 @@ jobs:
         
         
       # rsconnect::connectApiUser(server = "gha-colorado.rstudio.com", apiKey = Sys.getenv("CONNECT_API_KEY"))
+      # rsconnect::servers() |> dplyr::select(name, url) |> print()
       - name: Publish to connect
         run: |
-          rsconnect::servers() |> dplyr::select(name, url) |> print()
           rsconnect::addConnectServer(url = "https://colorado.rstudio.com/rsc/")
-          rsconnect::servers() |> dplyr::select(name, url) |> print()
-          rsconnect::connectApiUser(apiKey="{{ env.RSCONNECT_APIKEY }}")
+          rsconnect::connectApiUser(apiKey="{{ env.RSCONNECT_APIKEY }}", account = "sam.edwardes")
           rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]", forceUpdate = TRUE)
         shell: Rscript {0}
    
