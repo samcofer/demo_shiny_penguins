@@ -59,7 +59,7 @@ jobs:
         
       - name: Register server
         run: |
-          rsconnect::addServer(url = "https://colorado.rstudio.com/rsc/__api__", name = "colorado.rstudio.com")
+          rsconnect::addConnectServer(url = "https://colorado.rstudio.com/", name = "colorado.rstudio.com")
         shell: Rscript {0}
         
       - name: Register user
