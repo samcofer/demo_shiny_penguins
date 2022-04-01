@@ -9,7 +9,7 @@ jobs:
   deploy-to-connect:
     runs-on: ubuntu-latest
     env:
-      APP_NAME: "demo-palmers-penguins-shiny-github-actions-deploy"
+      APP_NAME: "demo-palmers-penguins-shiny-github-actions-deploy-2"
       APP_DIR: "app"
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       RSCONNECT_URL: ${{ secrets.RSCONNECT_URL }}
