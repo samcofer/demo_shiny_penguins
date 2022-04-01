@@ -34,13 +34,13 @@ jobs:
         run: |
           rsconnect::writeManifest(appDir = "${{ env.APP_DIR }}")
         shell: Rscript {0}
-
-      - name: Deploy to RStudio Connect
-        uses: rstudio/actions/connect-publish@main
-        with:
-          url: https://${{ env.RSCONNECT_APIKEY }}@${{ env.RSCONNECT_URL }}
-          access-type: logged_in
-          show-logs: true
-          force: true
-          dir: ${{ env.APP_DIR }}
-          require-vanity-path: true
+        
+      - name: Register user
+        run: |
+          rsconnect::connectAPiUser(account = "sam.edwardes", server = "https://colorado.rstudio.com/rsc", apiKey={{ env.RSCONNECT_APIKEY }})
+        shell: Rscript {0}
+        
+      - name: Deploy
+        run: |
+          rsconnect::deployApp(addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy-3", appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]")
+        shell: Rscript {0}

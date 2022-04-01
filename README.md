@@ -44,6 +44,9 @@ rsconnect::deployApp(
 )
 ```
 
+rsconnect::deployApp( addDir = "app", appFiles = c("app.R"), appName = "demo-palmers-penguins-shiny-github-actions-deploy" appTitle = "Demo - Palmers Penguins [Shiny / GitHub Actions Deploy]"
+)
+
 ### Deploy with GitHub Actions
 
 > in progress...
