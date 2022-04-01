@@ -37,7 +37,7 @@ jobs:
         
       - name: Register user
         run: |
-          rsconnect::connectApiUser(account = "sam.edwardes", server = "https://colorado.rstudio.com/rsc", apiKey={{ env.RSCONNECT_APIKEY }})
+          rsconnect::connectApiUser(account = "sam.edwardes", server = "colorado.rstudio.com", apiKey={{ env.RSCONNECT_APIKEY }})
         shell: Rscript {0}
         
       - name: Deploy
