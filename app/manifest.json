@@ -12,7 +12,7 @@
   "packages": {
     "MASS": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "MASS",
         "Priority": "recommended",
@@ -42,7 +42,7 @@
     },
     "Matrix": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "Matrix",
         "Version": "1.3-4",
@@ -75,7 +75,7 @@
     },
     "R6": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -100,7 +100,7 @@
     },
     "RColorBrewer": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-2",
@@ -122,7 +122,7 @@
     },
     "Rcpp": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "Rcpp",
         "Title": "Seamless R and C++ Integration",
@@ -148,7 +148,7 @@
     },
     "base64enc": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -170,7 +170,7 @@
     },
     "bslib": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -199,7 +199,7 @@
     },
     "cachem": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "cachem",
         "Version": "1.0.6",
@@ -224,7 +224,7 @@
     },
     "cli": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
@@ -251,7 +251,7 @@
     },
     "colorspace": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "colorspace",
         "Version": "2.0-2",
@@ -280,7 +280,7 @@
     },
     "commonmark": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "commonmark",
         "Type": "Package",
@@ -305,7 +305,7 @@
     },
     "crayon": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
@@ -332,7 +332,7 @@
     },
     "digest": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n and Winston Chang.",
@@ -358,37 +358,38 @@
     },
     "dplyr": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "dplyr",
         "Title": "A Grammar of Data Manipulation",
-        "Version": "1.0.7",
+        "Version": "1.0.8",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\"),\n             email = \"hadley@rstudio.com\",\n             comment = c(ORCID = \"0000-0003-4757-117X\")),\n      person(given = \"Romain\",\n             family = \"François\",\n             role = \"aut\",\n             comment = c(ORCID = \"0000-0002-2444-4226\")),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = \"aut\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
         "Description": "A fast, consistent tool for working with data frame\n    like objects, both in memory and out of memory.",
         "License": "MIT + file LICENSE",
         "URL": "https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
         "BugReports": "https://github.com/tidyverse/dplyr/issues",
-        "Depends": "R (>= 3.3.0)",
-        "Imports": "ellipsis, generics, glue (>= 1.3.2), lifecycle (>= 1.0.0),\nmagrittr (>= 1.5), methods, R6, rlang (>= 0.4.10), tibble (>=\n2.1.3), tidyselect (>= 1.1.0), utils, vctrs (>= 0.3.5), pillar\n(>= 1.5.1)",
-        "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), knitr,\nLahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown,\nRMySQL, RPostgreSQL, RSQLite, testthat (>= 3.0.2), tidyr, withr",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "generics, glue (>= 1.3.2), lifecycle (>= 1.0.1), magrittr (>=\n1.5), methods, R6, rlang (>= 1.0.0), tibble (>= 2.1.3),\ntidyselect (>= 1.1.1), utils, vctrs (>= 0.3.5), pillar (>=\n1.5.1)",
+        "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), ggplot2,\nknitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,\nrmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.1.1),\ntidyr, withr",
         "VignetteBuilder": "knitr",
         "Encoding": "UTF-8",
         "LazyData": "true",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse, shiny, r-lib/pkgdown,\ntidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-06-16 07:10:11 UTC; lionel",
+        "Packaged": "2022-02-07 08:29:01 UTC; romainfrancois",
         "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Romain François [aut] (<https://orcid.org/0000-0002-2444-4226>),\n  Lionel Henry [aut],\n  Kirill Müller [aut] (<https://orcid.org/0000-0002-1416-3412>),\n  RStudio [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-06-18 23:20:01 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 10:58:14 UTC; unix"
+        "Date/Publication": "2022-02-08 09:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-02-09 10:46:21 UTC; unix"
       }
     },
     "ellipsis": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.2",
@@ -414,7 +415,7 @@
     },
     "fansi": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
@@ -442,7 +443,7 @@
     },
     "farver": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "farver",
         "Type": "Package",
@@ -468,7 +469,7 @@
     },
     "fastmap": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -493,7 +494,7 @@
     },
     "fontawesome": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "fontawesome",
@@ -521,7 +522,7 @@
     },
     "fs": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
@@ -553,7 +554,7 @@
     },
     "generics": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "generics",
         "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
@@ -580,7 +581,7 @@
     },
     "ggplot2": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "ggplot2",
         "Version": "3.3.5",
@@ -611,7 +612,7 @@
     },
     "glue": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
@@ -640,7 +641,7 @@
     },
     "gtable": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "gtable",
         "Title": "Arrange 'Grobs' in Tables",
@@ -668,7 +669,7 @@
     },
     "htmltools": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "htmltools",
         "Type": "Package",
@@ -697,7 +698,7 @@
     },
     "httpuv": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "httpuv",
         "Type": "Package",
@@ -727,7 +728,7 @@
     },
     "isoband": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "isoband",
         "Title": "Generate Isolines and Isobands from Regularly Spaced Elevation\nGrids",
@@ -755,7 +756,7 @@
     },
     "jquerylib": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -779,7 +780,7 @@
     },
     "jsonlite": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "jsonlite",
         "Version": "1.7.2",
@@ -805,7 +806,7 @@
     },
     "labeling": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "labeling",
         "Type": "Package",
@@ -828,7 +829,7 @@
     },
     "later": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "later",
         "Type": "Package",
@@ -857,7 +858,7 @@
     },
     "lattice": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "lattice",
         "Version": "0.20-45",
@@ -887,7 +888,7 @@
     },
     "lifecycle": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -915,7 +916,7 @@
     },
     "magrittr": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
@@ -942,7 +943,7 @@
     },
     "mgcv": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "mgcv",
         "Version": "1.8-38",
@@ -967,7 +968,7 @@
     },
     "mime": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -992,7 +993,7 @@
     },
     "munsell": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "munsell",
         "Type": "Package",
@@ -1016,7 +1017,7 @@
     },
     "nlme": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "nlme",
         "Version": "3.1-153",
@@ -1047,7 +1048,7 @@
     },
     "palmerpenguins": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "palmerpenguins",
         "Title": "Palmer Archipelago (Antarctica) Penguin Data",
@@ -1069,12 +1070,12 @@
         "Maintainer": "Allison Horst <ahorst@ucsb.edu>",
         "Repository": "RSPM",
         "Date/Publication": "2020-07-23 15:20:05 UTC",
-        "Built": "R 4.1.0; ; 2021-05-19 01:07:39 UTC; unix"
+        "Built": "R 4.1.0; ; 2021-05-19 01:05:49 UTC; unix"
       }
     },
     "pillar": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
@@ -1103,7 +1104,7 @@
     },
     "pkgconfig": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -1127,7 +1128,7 @@
     },
     "promises": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "promises",
         "Type": "Package",
@@ -1157,7 +1158,7 @@
     },
     "purrr": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
@@ -1185,7 +1186,7 @@
     },
     "rappdirs": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -1213,37 +1214,39 @@
     },
     "rlang": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "rlang",
-        "Version": "0.4.12",
+        "Version": "1.0.2",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
-        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
         "License": "MIT + file LICENSE",
         "ByteCompile": "true",
         "Biarch": "true",
-        "Depends": "R (>= 3.3.0)",
+        "Depends": "R (>= 3.4.0)",
         "Imports": "utils",
-        "Suggests": "cli, covr, crayon, glue, magrittr, methods, pak, pillar,\nrmarkdown, testthat (>= 3.0.0), vctrs (>= 0.2.3), withr",
+        "Suggests": "cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,\nmethods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,\nusethis, vctrs (>= 0.2.3), withr",
         "Enhances": "winch",
+        "SystemRequirements": "C++11",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "URL": "https://rlang.r-lib.org, https://github.com/r-lib/rlang",
         "BugReports": "https://github.com/r-lib/rlang/issues",
         "Config/testthat/edition": "3",
+        "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-10-18 07:25:49 UTC; lionel",
-        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  RStudio [cph]",
+        "Packaged": "2022-03-04 12:15:17 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-10-18 23:00:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-09 00:26:36 UTC; unix"
+        "Date/Publication": "2022-03-04 15:30:06 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-07 10:51:11 UTC; unix"
       }
     },
     "sass": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1272,7 +1275,7 @@
     },
     "scales": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "scales",
         "Title": "Scale Functions for Visualization",
@@ -1299,7 +1302,7 @@
     },
     "shiny": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "shiny",
         "Type": "Package",
@@ -1329,7 +1332,7 @@
     },
     "shinydashboard": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "shinydashboard",
         "Title": "Create Dashboards with 'Shiny'",
@@ -1354,7 +1357,7 @@
     },
     "sourcetools": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "sourcetools",
         "Type": "Package",
@@ -1379,7 +1382,7 @@
     },
     "tibble": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "tibble",
         "Title": "Simple Data Frames",
@@ -1409,7 +1412,7 @@
     },
     "tidyselect": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "tidyselect",
         "Title": "Select from a Set of Strings",
@@ -1437,7 +1440,7 @@
     },
     "utf8": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
@@ -1463,7 +1466,7 @@
     },
     "vctrs": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
@@ -1491,7 +1494,7 @@
     },
     "viridisLite": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "viridisLite",
         "Type": "Package",
@@ -1517,7 +1520,7 @@
     },
     "withr": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "withr",
         "Title": "Run Code 'With' Temporarily Modified Global State",
@@ -1545,7 +1548,7 @@
     },
     "xtable": {
       "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Repository": "https://packagemanager.rstudio.com/all/__linux__/bionic/latest",
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
@@ -1572,7 +1575,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "a4d7ce8e134f01370a585356da6191ca"
+      "checksum": "1a4d3469acd22cb23784cc1a806204fd"
     }
   },
   "users": null
