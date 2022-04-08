@@ -2,6 +2,9 @@
 
 Palmer's penguins shiny dashboard demo.
 
+- Code: <https://github.com/SamEdwardes/demo-shiny-penguins>
+- Deployment: <https://colorado.rstudio.com/rsc/demo-penguins-shiny/>
+
 ![screenshot](./imgs/app-screenshot.png)
 
 ## Usage
