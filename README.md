@@ -15,6 +15,8 @@ shiny::runApp('app')
 
 ## Deployment
 
+### Git-backed
+
 Update the code, and then run:
 
 ```r
@@ -22,3 +24,15 @@ rsconnect::writeManifest("app")
 ```
 
 The app will be automatically redeployed by RStudio Connect.
+
+### API
+
+You can also deploy the app using the `rsconnect` api:
+
+```r
+rsconnect::deployApp(
+  appDir = "app",
+  appFiles = c("app.R"),
+  appTitle = "Shiny Penguins API Deployment"
+)
+```
