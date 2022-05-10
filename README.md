@@ -25,7 +25,7 @@ rsconnect::writeManifest("app")
 
 The app will be automatically redeployed by RStudio Connect.
 
-### API
+### Programatic
 
 You can also deploy the app using the `rsconnect` api:
 
