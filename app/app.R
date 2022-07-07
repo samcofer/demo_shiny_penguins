@@ -2,9 +2,8 @@ library(shiny)
 library(shinydashboard)
 library(ggplot2)
 library(dplyr)
+library(palmerpenguins)
 
-# Load the data
-penguins <- palmerpenguins::penguins
 
 # Dashboard body
 body <- shinydashboard::dashboardBody(
