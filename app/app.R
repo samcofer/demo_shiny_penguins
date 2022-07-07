@@ -4,6 +4,13 @@ library(ggplot2)
 library(dplyr)
 library(palmerpenguins)
 
+<<<<<<< HEAD
+=======
+# comment to trigger redeploy
+
+# Load the data
+penguins <- palmerpenguins::penguins
+>>>>>>> 3f42ef041d0278bc193abc927600c46c6cdab706
 
 # Dashboard body
 body <- shinydashboard::dashboardBody(
