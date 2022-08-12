@@ -10,7 +10,7 @@ body <- shinydashboard::dashboardBody(
     fluidRow(
         column(
             6,
-            tags$h4("Meeting the penguins!"),
+            tags$h4("Meeting the penguins!!!!!"),
             tags$p("Data were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network."),
             tags$p("The penguins live on three different islands:"),
             selectInput(
